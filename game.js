@@ -22,7 +22,7 @@ function create() {
     this.add.image(400, 300, 'bg').setScale(1.2); // Adiciona o fundo no meio da tela e aumenta um pouco o tamanho
     passarinho = this.add.sprite(100, 300, 'bird').setScale(1.5); // Coloca o passarinho na tela já maiorzinho
     
-
+//this.load.image('bg', 'assets/bg_space.png'); // Carrega o 
     this.anims.create({
         key: 'fly', // Nome da animação
         frames: this.anims.generateFrameNumbers('bird', { start: 0, end: 7 }), // Pega os frames do sprite
